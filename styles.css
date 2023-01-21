@@ -1,0 +1,49 @@
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.topImage img {
+    height: 200px;
+    width: 100%;
+}
+
+.midImage img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -80px;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+.card:hover .midImage img {
+    border: 7px solid green;
+    transition: .3s;
+}
+
+.card-text {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.card-text h2 {
+    margin-bottom: 10px;
+}
+
+.card-icon {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-icon i {
+    color: darkcyan;
+    padding: 0 10px;
+    font-size: 20px;
+}
